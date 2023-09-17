@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  webserver:
+    container_name: webserver
+    image: httpd:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./html:/usr/local/apache2/htdocs
+      - ./conf/httpd-vhosts.conf:/usr/local/apache2/conf/extra/httpd-vhosts.conf
