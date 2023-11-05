@@ -1,0 +1,32 @@
+* {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid red;
+}
+
+.frmtbl {
+    color: white;
+}
+
+.frmtbl caption {
+    color: black
+}
+
+.frmtbl thead {
+    background-color: purple;
+}
+
+.frmtbl tbody {
+    background-color: mediumpurple;
+}
+
+.frmtbl tfoot {
+    background-color: blue;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 50px;
+}

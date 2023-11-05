@@ -1,0 +1,43 @@
+body {
+    font-size: 14px;
+    color: #FF6600;
+    font-family: Arial, serif;
+}
+
+p {
+    letter-spacing: 10px;
+}
+
+.kursiv {
+    text-shadow: 1px 1px 4px rgb(17, 152, 75);
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.third {
+    font-family: Comic Sans, sans-serif;
+    font-size: 25px;
+    text-indent: 50px;
+}
+
+.perenos {
+    word-wrap: break-word;
+
+}
+
+.rich {
+    font-family: Arial, serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgba(183, 201, 21, 0.594);
+    line-height: 25px;
+}
+
+.six {
+    text-align: right;
+}
+
+.seven {
+    text-align: justify;
+}

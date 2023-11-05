@@ -1,0 +1,78 @@
+body {
+    background-color: #86D4DE;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.wrapper {
+    background-color: #f9f9f9;
+    width: 60%;
+    text-align: left;
+    padding: 0 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.left-text {
+    flex: 1;
+}
+
+.right-image {
+    flex: 1;
+    text-align: right;
+}
+
+img {
+    align-items: center;
+    justify-content: center;
+}
+
+.features {
+    margin-bottom: 20px;
+}
+
+.comparison {
+    margin: 20px auto;
+}
+
+.registration {
+    width: 50%;
+    margin: 0 auto;
+}
+
+table {
+    background-color: #86D4DE;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: white;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}

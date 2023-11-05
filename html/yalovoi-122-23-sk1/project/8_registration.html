@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="8.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="header">
+        <h1>Реєстрація</h1>
+    </div>
+    <div class="content">
+        <div class="registration">
+            <p><b>Реєстрація на курс по Go:</b></p>
+            <form method="post" action="/process_registration">
+                <table>
+                    <tr>
+                        <td align="right">Ім'я:</td>
+                        <td><input type="text" name="name" required></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Електронна пошта:</td>
+                        <td><input type="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Номер телефону:</td>
+                        <td><input type="tel" name="phone" required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" value="Зареєструватися">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

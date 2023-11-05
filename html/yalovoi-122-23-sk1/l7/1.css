@@ -1,0 +1,10 @@
+.k1{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border-style: solid;
+    border-color: rgb(4, 117, 80);
+    border-width: 3px;
+    float: left;
+    margin-left: 15px;
+}

@@ -1,0 +1,28 @@
+.k1{
+    width: 33%;
+    height: 200px;
+    background-color: aquamarine;
+    border-style: solid;
+    border-color: rgb(4, 117, 80);
+    border-width: 3px;
+    float: left;
+    
+}
+.k2{
+    width:  33%;
+    height: 200px;
+    background-color: rgb(251, 255, 0);
+    border-style: solid;
+    border-color: rgb(255, 230, 0);
+    border-width: 3px;
+    float: left;
+}
+.k3{
+    width:  30%;
+    height: 200px;
+    background-color: rgb(255, 30, 30);
+    border-style: solid;
+    border-color: rgb(126, 0, 0);
+    border-width: 3px;
+    float: left;
+}
